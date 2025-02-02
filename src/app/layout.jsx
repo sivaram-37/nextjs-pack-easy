@@ -7,14 +7,16 @@ const breeSerif = Bree_Serif({
 });
 
 export const metadata = {
-	title: "PackEasy",
+	title: "Pack~Easy",
 	description: "Your travelling checklist",
 };
 
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
-			<body className={`${breeSerif.className} antialiased text-gray-700 bg-orange-100`}>
+			<body
+				className={`${breeSerif.className} antialiased text-gray-700 bg-orange-100`}
+			>
 				{children}
 			</body>
 		</html>
